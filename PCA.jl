@@ -11,7 +11,7 @@ function class(l)
     end
     return p
 end
-X=[0.975 2.034;2.153 4.127;3.017 5.976;3.885 8.040;5.162 9.987;6.025 12.121]
+
 function mean_center(X)
     s=size(X)
     Xm=zeros(s)
